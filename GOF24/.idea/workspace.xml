@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ccfcb20-801d-44a5-bb0a-cd73a72a2aae" name="Default" comment="" />
+    <list default="true" id="7ccfcb20-801d-44a5-bb0a-cd73a72a2aae" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/AudiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Byd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/BydFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Byd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/LazyLoadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/LazyLoadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/singleton/LazyLoadSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huazai/gof/singleton/LazyLoadSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java" afterDir="false" />
+    </list>
     <ignored path="GOF.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,65 +42,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/HungrySingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/CarFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="138">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Byd.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Car.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Audi.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/CarFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/AudiFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/LazyLoadSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/EnumSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/BydFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+            <state relative-caret-position="184">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/DoubleCheckLockSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/StaticInnerClassSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding>
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,9 +105,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -102,11 +119,20 @@
         <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/DoubleLockSingleton.java" />
         <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/InnerClassSingleton.java" />
         <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/StaticInnerClassSingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/LazyLoadSingleton.java" />
         <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/DoubleCheckLockSingleton.java" />
         <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/EnumSingleton.java" />
-        <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java" />
         <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/HungrySingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/LazyLoadSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Audi.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Byd.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Audi.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/AudiFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/BydFactory.java" />
       </list>
     </option>
   </component>
@@ -115,6 +141,9 @@
     <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -142,7 +171,21 @@
               <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
               <item name="GOF24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="gof" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GOF24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gof" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GOF24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gof" type="462c0819:PsiDirectoryNode" />
+              <item name="simplefacotry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
@@ -152,21 +195,29 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\githubWorkspace\designModel\GOF24\src\com\huazai\gof\singleton" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.huazai.gof.singleton" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\githubWorkspace\designModel\GOF24\src\com\huazai\gof\facotry\factorymethod" />
       <recent name="G:\githubWorkspace\designModel\GOF24\lib" />
     </key>
   </component>
@@ -182,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Test.test">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -334,6 +385,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.simplefacotry.Test" />
+      <module name="GOF24" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huazai.gof.facotry.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -350,17 +415,68 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
-    <configuration name="Test.testSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GOF24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huazai.gof.singleton.*" />
+          <option name="PATTERN" value="com.huazai.gof.facotry.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huazai.gof.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.singleton.Test" />
-      <option name="METHOD_NAME" value="testSingleton" />
+      <option name="PACKAGE_NAME" value="com.huazai.gof.facotry.factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.facotry.factorymethod.Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GOF24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huazai.gof.facotry.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huazai.gof.factory.simplefacotry" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.simplefacotry.Test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GOF24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huazai.gof.facotry.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huazai.gof.factory.simplefacotry" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.simplefacotry.Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.tset1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GOF24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huazai.gof.facotry.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huazai.gof.factory.simplefacotry" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.simplefacotry.Test" />
+      <option name="METHOD_NAME" value="tset1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -450,7 +566,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.testSingleton" />
+        <item itemvalue="JUnit.Test.test" />
+        <item itemvalue="JUnit.Test.test1" />
+        <item itemvalue="JUnit.Test.tset1" />
+        <item itemvalue="JUnit.Test.test (1)" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -467,59 +587,58 @@
       <workItem from="1560866630116" duration="51000" />
       <workItem from="1560866725515" duration="6462000" />
       <workItem from="1560957819569" duration="5815000" />
+      <workItem from="1561214470165" duration="6371000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_testSingleton - 2019.06.20 at 00h 09m 42s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_testSerializable - 2019.06.22 at 23h 29m 16s.xml">
+      <configuration name="Test.testSerializable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testSingleton - 2019.06.20 at 00h 11m 44s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_testSerializable - 2019.06.22 at 23h 29m 32s.xml">
+      <configuration name="Test.testSerializable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testSingleton - 2019.06.20 at 00h 15m 31s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_testSerializable - 2019.06.22 at 23h 29m 49s.xml">
+      <configuration name="Test.testSerializable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testSingleton - 2019.06.20 at 00h 16m 36s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_testPerformance - 2019.06.22 at 23h 45m 58s.xml">
+      <configuration name="Test.testPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testSingleton - 2019.06.20 at 00h 17m 49s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_testPerformance - 2019.06.23 at 00h 00m 34s.xml">
+      <configuration name="Test.testPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testSingleton - 2019.06.20 at 02h 34m 56s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_test_(1) - 2019.06.23 at 00h 09m 06s.xml">
+      <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testSingleton - 2019.06.20 at 02h 35m 29s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_tset1 - 2019.06.23 at 00h 10m 46s.xml">
+      <configuration name="Test.tset1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testSingleton - 2019.06.20 at 02h 36m 34s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_test1 - 2019.06.23 at 00h 10m 59s.xml">
+      <configuration name="Test.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testSingleton - 2019.06.20 at 02h 36m 50s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_test1 - 2019.06.23 at 00h 11m 08s.xml">
+      <configuration name="Test.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testSingleton - 2019.06.20 at 02h 36m 51s.xml">
-      <configuration name="Test.testSingleton" configurationId="JUnit" />
+    <history-entry file="Test_test1 - 2019.06.23 at 00h 11m 20s.xml">
+      <configuration name="Test.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12328000" />
+    <option name="totallyTimeSpent" value="18699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30321285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18072289" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Palette&#9;" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32863188" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915374" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3983051" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -528,6 +647,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32909605" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -549,6 +669,20 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>clazz.getDeclaredConstructors()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>clazz.getConstructor()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://JAVA/com.huazai.gof.singleton.LazyLoadSingleton">
@@ -576,46 +710,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/jj.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/LazyLoadSingleton.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.huazai.gof.singleton.LazyLoadSingleton</OriginalElement>
-          <nodes>
-            <node x="276.0" y="0.0">com.huazai.gof.singleton.HungrySingleton</node>
-            <node x="0.0" y="0.0">com.huazai.gof.singleton.LazyLoadSingleton</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-34.0" y="-34.0" />
-          <SelectedNodes>
-            <node>com.huazai.gof.singleton.HungrySingleton</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/StaticInnerClassSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/LazyLoadSingleton.uml" />
+    <entry file="jar://$PROJECT_DIR$/lib/hamcrest-core-1.3.jar!/org/hamcrest/SelfDescribing.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/DoubleCheckLockSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="161">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -626,47 +725,291 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/hamcrest-core-1.3.jar!/org/hamcrest/SelfDescribing.class">
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/DoubleCheckLockSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="276">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/util/concurrent/CountDownLatch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/StaticInnerClassSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3119">
-          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+        <state relative-caret-position="69">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/io/FileNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1179" column="31" lean-forward="true" selection-start-line="1179" selection-start-column="31" selection-end-line="1179" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/LazyLoadSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="141">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="669" column="17" selection-start-line="669" selection-start-column="17" selection-end-line="669" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="290" column="20" lean-forward="true" selection-start-line="290" selection-start-column="20" selection-end-line="290" selection-end-column="20" />
+          <folding>
+            <element signature="e#9899#9900#0" expanded="true" />
+            <element signature="e#9936#9937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Audi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/HungrySingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Byd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.huazai.gof.factory.simplefacotry.Audi">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.huazai.gof.factory.simplefacotry.Audi</OriginalElement>
+          <nodes>
+            <node x="0.0" y="161.0">com.huazai.gof.factory.simplefacotry.CarFactory</node>
+            <node x="0.0" y="83.0">com.huazai.gof.factory.simplefacotry.Byd</node>
+            <node x="88.0" y="83.0">com.huazai.gof.factory.simplefacotry.Audi</node>
+            <node x="46.0" y="0.0">com.huazai.gof.factory.simplefacotry.Car</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.huazai.gof.factory.simplefacotry.Audi" target="com.huazai.gof.factory.simplefacotry.Car">
+              <point x="0.0" y="-16.5" />
+              <point x="126.0" y="58.0" />
+              <point x="97.0" y="58.0" />
+              <point x="17.0" y="16.5" />
+            </edge>
+            <edge source="com.huazai.gof.factory.simplefacotry.Byd" target="com.huazai.gof.factory.simplefacotry.Car">
+              <point x="0.0" y="-16.5" />
+              <point x="34.0" y="58.0" />
+              <point x="63.0" y="58.0" />
+              <point x="-17.0" y="16.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="82.0" y="97.0" />
+          <SelectedNodes>
+            <node>com.huazai.gof.factory.simplefacotry.Audi</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        <state relative-caret-position="161">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Byd.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Car.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Audi.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/AudiFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/BydFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
