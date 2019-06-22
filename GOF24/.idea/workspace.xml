@@ -2,41 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ccfcb20-801d-44a5-bb0a-cd73a72a2aae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/Tyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LowCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LowEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LowSeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LowTyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LuxuryCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LuxuryEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LuxurySeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LuxuryTyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/MiddleCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/factorymethod/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/factorymethod/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/facotry/factorymethod/Audi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/facotry/factorymethod/AudiFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/facotry/factorymethod/Benz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/facotry/factorymethod/BenzFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/facotry/factorymethod/Byd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/facotry/factorymethod/BydFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/facotry/factorymethod/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/facotry/factorymethod/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/facotry/factorymethod/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/factorymethod/Audi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/AudiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/factorymethod/AudiFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Benz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/factorymethod/Benz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/BenzFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/factorymethod/BenzFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Byd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/factorymethod/Byd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/BydFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/factorymethod/BydFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/huazai/gof/factory/factorymethod/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/CarFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/META-INF/GOF24.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/Seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/Tyre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LowCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LowEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LowSeat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LowTyre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LuxuryCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LuxuryEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LuxurySeat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LuxuryTyre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/MiddleCarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Audi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/AudiFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Benz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/BenzFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Byd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/BydFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/Audi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/Byd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/DoubleCheckLockSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/EnumSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/HungrySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/LazyLoadSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/StaticInnerClassSingleton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/StaticInnerClassSingleton$SingletonClassInstance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/StaticInnerClassSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/test.txt" beforeDir="false" />
     </list>
     <ignored path="GOF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +63,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/CarFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LuxuryCarFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,11 +177,6 @@
             <path>
               <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
               <item name="GOF24" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GOF24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,21 +184,6 @@
               <item name="GOF24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gof" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GOF24" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gof" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GOF24" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gof" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
@@ -180,10 +191,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gof" type="462c0819:PsiDirectoryNode" />
               <item name="singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GOF24" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -228,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test (1)">
+  <component name="RunManager" selected="JUnit.Test.testPerformance">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -380,20 +387,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.simplefacotry.Test" />
-      <module name="GOF24" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huazai.gof.facotry.factorymethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -472,6 +465,23 @@
       <option name="PACKAGE_NAME" value="com.huazai.gof.factory.simplefacotry" />
       <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.simplefacotry.Test" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GOF24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huazai.gof.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huazai.gof.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.singleton.Test" />
+      <option name="METHOD_NAME" value="testPerformance" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -578,11 +588,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.testPerformance" />
         <item itemvalue="JUnit.Test.test (1)" />
         <item itemvalue="JUnit.Test.test" />
         <item itemvalue="JUnit.Test.test1" />
         <item itemvalue="JUnit.Test.tset1" />
-        <item itemvalue="JUnit.Test.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -599,7 +609,7 @@
       <workItem from="1560866630116" duration="51000" />
       <workItem from="1560866725515" duration="6462000" />
       <workItem from="1560957819569" duration="5815000" />
-      <workItem from="1561214470165" duration="9678000" />
+      <workItem from="1561214470165" duration="10558000" />
     </task>
     <servers />
   </component>
@@ -636,7 +646,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22006000" />
+    <option name="totallyTimeSpent" value="22886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
@@ -858,16 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/simplefacotry/CarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1056,22 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LuxuryCarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LowCarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1120,10 +1104,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LuxuryCarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/CarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
