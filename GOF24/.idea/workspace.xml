@@ -2,50 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ccfcb20-801d-44a5-bb0a-cd73a72a2aae" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/builder/IAirShipBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/builder/IAirShipDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/builder/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/builder/bean/AirShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/builder/bean/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/builder/bean/EscapeTower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/builder/bean/OrbitalModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/builder/impl/CEAirShipBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/builder/impl/CEAirShipDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/prototype/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/huazai/gof/prototype/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/META-INF/GOF24.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/Seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/Tyre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LowCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LowEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LowSeat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LowTyre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LuxuryCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LuxuryEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LuxurySeat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/LuxuryTyre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/abstractfactory/impl/MiddleCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Audi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/AudiFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Benz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/BenzFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Byd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/BydFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/factorymethod/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/Audi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/Byd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/factory/simplefacotry/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/DoubleCheckLockSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/EnumSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/HungrySingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/LazyLoadSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/StaticInnerClassSingleton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/StaticInnerClassSingleton$SingletonClassInstance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/StaticInnerClassSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/Test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOF24/com/huazai/gof/singleton/test.txt" beforeDir="false" />
     </list>
     <ignored path="GOF.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="GOF24.iml" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,34 +40,84 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/CarFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="230">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LuxuryCarFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/bean/AirShip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="92">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/prototype/Sheep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/prototype/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="92">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LowCarFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/IAirShipBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/IAirShipDirector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -150,6 +174,20 @@
         <option value="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/MiddleCarFactory.java" />
         <option value="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/Test.java" />
         <option value="$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/AirShip.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/bean/Engine.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/bean/OrbitalModule.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/bean/EscapeTower.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/AirShipBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/Director.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/AirShipDirector.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/impl/CEAirShipBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/impl/CEAirShipDirector.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/IAirShipBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/builder/bean/AirShip.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/prototype/Sheep.java" />
+        <option value="$PROJECT_DIR$/src/com/huazai/gof/prototype/Test.java" />
       </list>
     </option>
   </component>
@@ -167,6 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,25 +230,23 @@
               <item name="GOF24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gof" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/huazai/gof/facotry/factorymethod" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -235,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.testPerformance">
+  <component name="RunManager" selected="JUnit.Test">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -403,17 +441,84 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
-    <configuration name="Test.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GOF24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huazai.gof.factory.abstractfactory.*" />
+          <option name="PATTERN" value="com.huazai.gof.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huazai.gof.factory.abstractfactory" />
-      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.abstractfactory.Test" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.huazai.gof.prototype" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.prototype.Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testClone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GOF24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huazai.gof.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huazai.gof.prototype" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.prototype.Test" />
+      <option name="METHOD_NAME" value="testClone" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testDeepClone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GOF24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huazai.gof.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huazai.gof.prototype" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.prototype.Test" />
+      <option name="METHOD_NAME" value="testDeepClone" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testHiddenClone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GOF24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huazai.gof.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huazai.gof.prototype" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.prototype.Test" />
+      <option name="METHOD_NAME" value="testHiddenClone" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GOF24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huazai.gof.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huazai.gof.prototype" />
+      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.prototype.Test" />
+      <option name="METHOD_NAME" value="testNew" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -428,77 +533,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.huazai.gof.facotry.factorymethod" />
-      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.facotry.factorymethod.Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GOF24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huazai.gof.facotry.factorymethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.huazai.gof.factory.simplefacotry" />
-      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.simplefacotry.Test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GOF24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huazai.gof.facotry.factorymethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="com.huazai.gof.factory.simplefacotry" />
       <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.simplefacotry.Test" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.testPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GOF24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huazai.gof.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.huazai.gof.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.singleton.Test" />
-      <option name="METHOD_NAME" value="testPerformance" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.tset1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GOF24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huazai.gof.facotry.factorymethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.huazai.gof.factory.simplefacotry" />
-      <option name="MAIN_CLASS_NAME" value="com.huazai.gof.factory.simplefacotry.Test" />
-      <option name="METHOD_NAME" value="tset1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -588,11 +625,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.testPerformance" />
-        <item itemvalue="JUnit.Test.test (1)" />
-        <item itemvalue="JUnit.Test.test" />
-        <item itemvalue="JUnit.Test.test1" />
-        <item itemvalue="JUnit.Test.tset1" />
+        <item itemvalue="JUnit.Test" />
+        <item itemvalue="JUnit.Test.testClone" />
+        <item itemvalue="JUnit.Test.testNew" />
+        <item itemvalue="JUnit.Test.testDeepClone" />
+        <item itemvalue="JUnit.Test.testHiddenClone" />
       </list>
     </recent_temporary>
   </component>
@@ -609,50 +646,51 @@
       <workItem from="1560866630116" duration="51000" />
       <workItem from="1560866725515" duration="6462000" />
       <workItem from="1560957819569" duration="5815000" />
-      <workItem from="1561214470165" duration="10558000" />
+      <workItem from="1561214470165" duration="10723000" />
+      <workItem from="1561270230230" duration="10590000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test_(1) - 2019.06.23 at 00h 09m 06s.xml">
-      <configuration name="Test.test (1)" configurationId="JUnit" />
+    <history-entry file="Test_testHiddenClone - 2019.06.23 at 20h 17m 22s.xml">
+      <configuration name="Test.testHiddenClone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_tset1 - 2019.06.23 at 00h 10m 46s.xml">
-      <configuration name="Test.tset1" configurationId="JUnit" />
+    <history-entry file="Test_testDeepClone - 2019.06.23 at 20h 17m 54s.xml">
+      <configuration name="Test.testDeepClone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test1 - 2019.06.23 at 00h 10m 59s.xml">
-      <configuration name="Test.test1" configurationId="JUnit" />
+    <history-entry file="Test_testDeepClone - 2019.06.23 at 20h 18m 10s.xml">
+      <configuration name="Test.testDeepClone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test1 - 2019.06.23 at 00h 11m 08s.xml">
-      <configuration name="Test.test1" configurationId="JUnit" />
+    <history-entry file="Test_testNew - 2019.06.23 at 20h 24m 05s.xml">
+      <configuration name="Test.testNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test1 - 2019.06.23 at 00h 11m 20s.xml">
-      <configuration name="Test.test1" configurationId="JUnit" />
+    <history-entry file="Test_testNew - 2019.06.23 at 20h 24m 15s.xml">
+      <configuration name="Test.testNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2019.06.23 at 00h 38m 59s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="Test_testNew - 2019.06.23 at 20h 24m 26s.xml">
+      <configuration name="Test.testNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2019.06.23 at 00h 41m 17s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="Test_testNew - 2019.06.23 at 20h 26m 25s.xml">
+      <configuration name="Test.testNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2019.06.23 at 01h 46m 43s.xml">
-      <configuration name="Test.test (1)" configurationId="JUnit" />
+    <history-entry file="Test_testNew - 2019.06.23 at 20h 26m 44s.xml">
+      <configuration name="Test.testNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2019.06.23 at 01h 47m 21s.xml">
-      <configuration name="Test.test (1)" configurationId="JUnit" />
+    <history-entry file="Test_testClone - 2019.06.23 at 20h 26m 52s.xml">
+      <configuration name="Test.testClone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2019.06.23 at 01h 48m 17s.xml">
-      <configuration name="Test.test (1)" configurationId="JUnit" />
+    <history-entry file="Test - 2019.06.23 at 20h 27m 08s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22886000" />
+    <option name="totallyTimeSpent" value="33641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18072289" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18273093" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -660,7 +698,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32768363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32768363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983051" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -693,6 +731,18 @@
       <collection />
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/huazai/gof/builder/Test.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
@@ -708,81 +758,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/com.huazai.gof.singleton.LazyLoadSingleton">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.huazai.gof.singleton.LazyLoadSingleton</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">com.huazai.gof.singleton.LazyLoadSingleton</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-167.0" y="-34.0" />
-          <SelectedNodes>
-            <node>com.huazai.gof.singleton.LazyLoadSingleton</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/jj.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/LazyLoadSingleton.uml" />
-    <entry file="jar://$PROJECT_DIR$/lib/hamcrest-core-1.3.jar!/org/hamcrest/SelfDescribing.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/EnumSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/DoubleCheckLockSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/StaticInnerClassSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/io/FileNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/io/ObjectOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1056,22 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LowCarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/MiddleCarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1106,8 +1065,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LuxuryCarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="184">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />
@@ -1116,17 +1075,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/CarFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="23">
+          <caret line="71" column="63" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/singleton/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/bean/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/bean/EscapeTower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/bean/OrbitalModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/impl/CEAirShipDirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/impl/CEAirShipBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/impl/LowCarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/IAirShipDirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/IAirShipBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/factory/abstractfactory/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/prototype/Class.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/builder/bean/AirShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_11/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+          <folding>
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/prototype/Sheep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/huazai/gof/prototype/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
