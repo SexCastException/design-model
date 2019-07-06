@@ -1,5 +1,8 @@
 package com.huazai.gof.flyweight;
 
+/**
+ * 具体享元类（ConcreteFlyweight）：为内部状态提供成员变量进行存储
+ */
 public class Circle implements Shape {
     private String color;
     private int x;

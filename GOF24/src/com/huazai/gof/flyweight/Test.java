@@ -1,5 +1,11 @@
 package com.huazai.gof.flyweight;
 
+/**
+ * 享元模式以共享的方式高效地支持大量的细粒度对象的重用
+ * 享元模式区分了内部状态和内部状态
+ * 内部状态：可以共享，不会随着环境的变化而变化
+ * 外部环境：不可以共享，会随着环境的变化而变化
+ */
 public class Test {
     @org.junit.Test
     public void test() {
