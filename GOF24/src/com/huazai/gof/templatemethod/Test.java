@@ -1,5 +1,12 @@
 package com.huazai.gof.templatemethod;
 
+/**
+ * 常见开发场景
+ * spring中，JDBCTemplate和HibernateTemplate
+ * 数据库的访问封装
+ * 集合AbstractList等
+ * Serlvet中关于doGET和doPost方法
+ */
 public class Test {
     @org.junit.Test
     public void test() {
