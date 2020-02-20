@@ -9,7 +9,7 @@ import com.huazai.gof.advanced.cor.proxy.one.Tank;
  */
 public class Test {
     public static void main(String[] args) throws Exception {
-        Moveable o = (Moveable) Proxy.newProxyInstance(Moveable.class, new MoveInvocation(new Tank()));
+        Moveable o = (Moveable) Proxy.newProxyInstance(Moveable.class, new MoveInvocationHandler(new Tank()));
         o.move();
         System.out.println(o);
     }

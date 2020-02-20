@@ -8,10 +8,10 @@ import java.lang.reflect.Method;
  * @author pyh
  * @date 2020/2/20 19:47
  */
-public class MoveInvocation implements InvocationHandler {
+public class MoveInvocationHandler implements InvocationHandler {
     private Moveable proxy;
 
-    public MoveInvocation(Moveable proxy) {
+    public MoveInvocationHandler(Moveable proxy) {
         this.proxy = proxy;
     }
 
