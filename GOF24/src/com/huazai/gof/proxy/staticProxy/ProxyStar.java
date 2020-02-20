@@ -24,7 +24,9 @@ public class ProxyStar implements Star {
 
     @Override
     public void singe() {
+        System.out.println("log：真实歌手开始唱歌");
         star.singe();
+        System.out.println("log：真实歌手结束唱歌");
     }
 
     @Override
