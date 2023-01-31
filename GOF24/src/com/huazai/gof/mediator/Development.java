@@ -20,6 +20,7 @@ public class Development implements Department {
     @Override
     public void outAction() {
         System.out.println("汇报工作，没钱了，需要资金支持");
+        // 通过总经理这个中介者向其他部门发布命令，解耦了各个部门之间的交互
         mediator.command("financial");
         mediator.command("market");
     }

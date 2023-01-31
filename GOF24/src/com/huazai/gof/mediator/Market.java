@@ -21,6 +21,7 @@ public class Market implements Department {
     @Override
     public void outAction() {
         System.out.println("接了1000万项目，财务记录在案，需要xxx技术，和科研部技术评审");
+        // 通过总经理这个中介者向其他部门发布命令，解耦了各个部门之间的交互
         mediator.command("financial");
         mediator.command("development");
     }

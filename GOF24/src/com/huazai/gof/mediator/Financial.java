@@ -20,6 +20,7 @@ public class Financial implements Department {
     @Override
     public void outAction() {
         System.out.println("向其他部门资金输出");
+        // 通过总经理这个中介者向其他部门发布命令，解耦了各个部门之间的交互
         mediator.command("development");
         mediator.command("market");
     }
