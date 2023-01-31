@@ -9,5 +9,8 @@ public class Test {
         StarHandler starHandler = new StarHandler(realStar);
         Star proxy = (Star) Proxy.newProxyInstance(ClassLoader.getSystemClassLoader(), new Class[]{Star.class}, starHandler);
         proxy.singe();
+        proxy.bookTicket();
+        proxy.signContract();
+        proxy.confer();
     }
 }

@@ -15,6 +15,6 @@ public class StarHandler implements InvocationHandler {
         System.out.println("前置通知");
         Object o = method.invoke(readlStar, args);
         System.out.println("后置通知");
-        return null;
+        return proxy;
     }
 }
