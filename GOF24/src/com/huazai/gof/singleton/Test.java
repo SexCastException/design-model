@@ -57,7 +57,7 @@ public class Test {
         LazyLoadSingleton lazyLoadSingleton = LazyLoadSingleton.getInstance();
         System.out.println(lazyLoadSingleton);
 
-        String fileName = "G:\\githubWorkspace\\designModel\\GOF24\\src\\com\\huazai\\gof\\singleton\\test.txt";
+        String fileName = "F:\\project\\IdeaProjects\\design-pattern\\GOF24\\src\\com\\huazai\\gof\\singleton\\test.txt";
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(new File(fileName)));
         objectOutputStream.writeObject(lazyLoadSingleton);
         objectOutputStream.close();
