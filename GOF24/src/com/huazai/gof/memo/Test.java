@@ -6,8 +6,10 @@ public class Test {
         CareTaker careTaker = new CareTaker();
         originator.setState("State #1");
         originator.setState("State #2");
+        // 修改数据前创建备份副本
         careTaker.add(originator.saveStateToMemento());
         originator.setState("State #3");
+        // 修改数据前创建备份副本
         careTaker.add(originator.saveStateToMemento());
         originator.setState("State #4");
 
